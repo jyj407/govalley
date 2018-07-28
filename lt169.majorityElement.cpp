@@ -35,6 +35,7 @@ private:
         return left > right ? leftMod : rightMod;
     }
 };
+<<<<<<< HEAD
 
 
 // Solution 2: use std::count to count (in <algorithm> header)
@@ -69,3 +70,5 @@ class Solution {
             return leftCnt > rightCnt ? leftMod : rightMod;
         }
     };
+=======
+>>>>>>> d061a83a9d87612cd52b13dc9206db7ff26f8465
